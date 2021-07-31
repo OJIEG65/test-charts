@@ -1,0 +1,34 @@
+{
+  "name": "charts",
+  "description": "best charts app ever",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OJIEG65/test-charts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OJIEG65/test-charts/issues"
+  },
+  "homepage": "https://github.com/OJIEG65/test-charts#readme",
+  "dependencies": {
+    "-": "^0.0.1",
+    "scichart": "^1.4.1622"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^9.0.1",
+    "csv-loader": "^3.0.3",
+    "file-loader": "^6.2.0",
+    "json-loader": "^0.5.7",
+    "webpack": "^5.47.1",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
